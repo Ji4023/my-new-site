@@ -8,27 +8,27 @@ const PORTFOLIO_ITEMS = [
     title: "城市脉搏 - 2024 宣传片",
     category: "商业广告",
     type: "commercial",
-    image: "[https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)",
-    videoUrl: "[https://www.w3schools.com/html/mov_bbb.mp4](https://www.w3schools.com/html/mov_bbb.mp4)", 
+    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4](https://www.w3schools.com/html/mov_bbb.mp4)", 
     color: "bg-blue-500",
-    desc: "负责全程剪辑与后期调色，展现城市快节奏生活。"
+    desc: "负责编导，剪辑拍摄以及所有后期工作。"
   },
   {
     id: 2,
     title: "Vogue 风格 - 时尚后台",
     category: "时尚大片",
     type: "fashion",
-    image: "[https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)",
+    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
     videoUrl: "[https://www.w3schools.com/html/mov_bbb.mp4](https://www.w3schools.com/html/mov_bbb.mp4)",
     color: "bg-red-500",
     desc: "快剪风格，配合重节奏音乐，捕捉秀场瞬间。"
   },
   {
     id: 3,
-    title: "消失的海岸线",
+    title: "寻找外星人",
     category: "纪录片",
     type: "documentary",
-    image: "[https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
     videoUrl: "[https://www.w3schools.com/html/mov_bbb.mp4](https://www.w3schools.com/html/mov_bbb.mp4)",
     color: "bg-green-500",
     desc: "获得2023独立影像节最佳剪辑提名作品。"
@@ -38,7 +38,7 @@ const PORTFOLIO_ITEMS = [
     title: "霓虹 - 音乐录影带",
     category: "MV",
     type: "mv",
-    image: "[https://images.unsplash.com/photo-1514525253440-b393452e8d26?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1514525253440-b393452e8d26?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)",
+    image: "https://images.unsplash.com/photo-1514525253440-b393452e8d26?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1514525253440-b393452e8d26?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
     videoUrl: "[https://www.w3schools.com/html/mov_bbb.mp4](https://www.w3schools.com/html/mov_bbb.mp4)",
     color: "bg-yellow-500",
     desc: "赛博朋克风格调色，运用大量特效转场。"
@@ -48,7 +48,7 @@ const PORTFOLIO_ITEMS = [
     title: "极简生活 VLOG",
     category: "短视频",
     type: "vlog",
-    image: "[https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)",
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
     videoUrl: "[https://www.w3schools.com/html/mov_bbb.mp4](https://www.w3schools.com/html/mov_bbb.mp4)",
     color: "bg-blue-500",
     desc: "抖音百万赞作品，治愈系剪辑节奏。"
@@ -58,7 +58,7 @@ const PORTFOLIO_ITEMS = [
     title: "Tech Future 发布会",
     category: "商业广告",
     type: "commercial",
-    image: "[https://images.unsplash.com/photo-1504384308090-c54be3855833?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1504384308090-c54be3855833?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)",
+    image: "https://images.unsplash.com/photo-1504384308090-c54be3855833?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80](https://images.unsplash.com/photo-1504384308090-c54be3855833?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
     videoUrl: "[https://www.w3schools.com/html/mov_bbb.mp4](https://www.w3schools.com/html/mov_bbb.mp4)",
     color: "bg-green-500",
     desc: "多机位混剪，现场导播与后期制作。"
